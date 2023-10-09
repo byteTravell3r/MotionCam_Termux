@@ -26,10 +26,10 @@
 ### Parameters
    It is pretty much self-explained.
    
-   `./motioncam.py [-l --light] [-r --rsync] [-m --motion] [-c --count]`
+   `./motioncam.py [-l --light] [-r --rsync] [-m --motion] [-c --count=x]`
 1. `--light`: Enable Camera LED Flash Light.
 2. `--rsync`: Enable Incremental Sync (rsync).
 3. `--motion`: Enable Motion Detection.
-4. `--count`: Auto Sync Frequency (Upload Per (x) Valid Shots)
+4. `--count=x`: Auto Sync Frequency (Upload Per (x) Valid Shots)
 
 
