@@ -25,6 +25,7 @@
 ## Running
 ### Parameters
    It is pretty much self-explained.
+   
    `./motioncam.py [-l --light] [-r --rsync] [-m --motion] [-c --count]`
 1. `--light`: Enable Camera LED Flash Light.
 2. `--rsync`: Enable Incremental Sync (rsync).
