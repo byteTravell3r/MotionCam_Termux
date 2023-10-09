@@ -1,14 +1,8 @@
 #!/data/data/com.termux/files/usr/bin/python3
 
 ### === A Very Simple Security Camera with Motion Detection implemented with Python3, Termux:API, OpenCV and rsync ===
-### PREREQUISITIES:
-### REQUIRED: F-droid: Termux, Termux:API 
-### REQUIRED: (In Termux:) pkg install python3 opencv-python rsync libjpeg-turbo libtiff termux-api
-### REQUIRED: Generate an SSH key of your phone(ssh-keygen) then upload the pubkey to remote server (file: ~/.ssh/authorized_keys)
-### REQUIRED: Use ssh to connect your remote server once (for known_hosts yes)
-### OPTIONAL: CPU governor set to "performance" (in SmartPack or other similar Apps), add this script to Termux:Boot
 
-# Default settings and rsync destination path (Modi)
+# Default settings and rsync destination path (Modify these!)
 flashLight = True; autoSync = False; captureInterval = 0.5; motionDet = True;  saveCount = 10, threshold = 0.05;
 pathRemoteSync = "byte@192.168.1.2:/home/byte/"
 
