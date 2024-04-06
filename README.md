@@ -12,9 +12,12 @@
 3. ... ...
 
 ## Pre-requisities
-1. An Android Phone (better with root privilege)
-2. Install **Termux** and **Termux:API** from F-Droid or GitHub (optional: **Termux:Boot**, **SmartPack Kernel Manager**)
-3. In **Termux** run:
+0. Android 12 or 13 **tends to kill this script because of too many phantom processes**, here is the fix:
+   https://termux.xyz/how-to-fix-termux-error-process-completed-signal-9-press-enter/
+   
+2. An Android Phone (better with root privilege)
+3. Install **Termux** and **Termux:API** from F-Droid or GitHub (optional: **Termux:Boot**, **SmartPack Kernel Manager**)
+4. In **Termux** run:
    `pkg install openssh python3 opencv-python rsync libjpeg-turbo libtiff termux-api`
 5. Generate an SSH key of your phone(with `ssh-keygen`) then upload the pubkey to remote server (file: `~/.ssh/authorized_keys`)
 6. `ssh` connect your phone to the desired remote server once (for `known_hosts yes`)
